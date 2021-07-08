@@ -1,1 +1,1 @@
-This is for navigation-bar test
+This is app's test information
