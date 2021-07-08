@@ -1,0 +1,33 @@
+{
+  "entryPagePath": "pages/index/index",
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/book/book",
+    "pages/common/common",
+    "pages/test/test",
+    "pages/clothes/clothes",
+    "pages/user/user"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#48D1CC",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "武大易珈",
+    "backgroundColor": "#00CED1",
+    "backgroundTextStyle":"light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color":"black",
+    "backgroundColor": "#00CED1",
+    "selectedColor": "#ff0",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "用户"
+    }]
+  }
+}
