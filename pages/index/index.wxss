@@ -1,0 +1,26 @@
+/**index.wxss**/
+@import '../lib/weui.wxss'
+.container{
+  height: 504px;
+  width: 320px;
+}
+.header{
+  height: 58px;
+  width: 320px;
+  margin-top: 0px;
+  text-align: center;
+}
+.nav{
+  height: 20px;
+  background-color: #f0ffff;
+}
+.navigator-hover{
+  color: blue;
+}
+.content{
+  height: 280px;
+  width: 320px;
+}
+.tab{
+  height: 40px;
+}

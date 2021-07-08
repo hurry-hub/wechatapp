@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    <text class="welcome">欢迎使用武大易珈</text>
+  </view>
+  <view class="nav">
+    <navigator url="../book/book?title=book" open-type="redirect" hover-class="navigator-hover">闲置书籍</navigator>
+    <navigator url="../common/common?title=common" open-type="redirect" hover-class="navigator-hover">日常用品</navigator>
+    <navigator url="../test/test?title=test" open-type="redirect" hover-class="navigator-hover">往年试题</navigator>
+    <navigator url="../clothes/clothes?title=clothes" open-type="redirect" hover-class="navigator-hover">个人衣物</navigator>
+  </view>
+  <view class="content">
+  
+  </view>
+  <view class="tab">
+  
+  </view>
+</view>
