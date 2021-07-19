@@ -7,7 +7,8 @@
     "pages/common/common",
     "pages/test/test",
     "pages/clothes/clothes",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/chat/chat"
   ],
   "window":{
     "navigationBarBackgroundColor": "#48D1CC",
@@ -24,10 +25,19 @@
     "selectedColor": "#ff0",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "首页"
+      "text": "首页",
+      "iconPath": "static/images/index.png",
+      "selectedIconPath": "static/images/index_select.png"
+    },{
+      "pagePath": "pages/chat/chat",
+      "text": "聊天",
+      "iconPath": "static/images/chat.png",
+      "selectedIconPath": "static/images/chat_select.png"
     },{
       "pagePath": "pages/user/user",
-      "text": "用户"
+      "text": "用户",
+      "iconPath": "static/images/mine.png",
+      "selectedIconPath": "static/images/mine_select.png"
     }]
   }
 }
