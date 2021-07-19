@@ -11,7 +11,7 @@
   text-align: center;
 }
 .nav{
-  height: 20px;
+  height: 120px;
   background-color: #f0ffff;
 }
 .navigator-hover{
